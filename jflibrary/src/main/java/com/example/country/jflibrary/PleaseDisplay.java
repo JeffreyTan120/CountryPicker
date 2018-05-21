@@ -8,4 +8,8 @@ public class PleaseDisplay {
     public PleaseDisplay(){
 
     }
+
+    public static String displayText(String text){
+        return text;
+    }
 }
