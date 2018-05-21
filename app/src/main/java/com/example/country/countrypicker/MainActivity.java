@@ -4,16 +4,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.country.jflibrary.PleaseDisplay;
+import com.example.country.jflibrary.CountryPicker;
 
 public class MainActivity extends AppCompatActivity {
-    public PleaseDisplay pleaseDisplay;
+    public CountryPicker pleaseDisplay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         View v = new TestClass(this);
-        pleaseDisplay = new PleaseDisplay();
+        pleaseDisplay = new CountryPicker();
         setContentView(v);
 //        setContentView(R.layout.activity_main);
     }
