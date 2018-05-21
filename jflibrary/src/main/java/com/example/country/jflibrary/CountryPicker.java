@@ -9,13 +9,9 @@ import android.widget.EditText;
 public class CountryPicker {
     private EditText insertCountry;
     public CountryPicker(){
-        insertCountry = new EditText()
     }
 
     public static String displayText(String text){
         return text;
     }
-
-    @Override
-
 }
