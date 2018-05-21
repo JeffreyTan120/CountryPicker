@@ -1,4 +1,4 @@
-package com.example.country.countrypicker;
+package com.jeffrey.country.countrypicker;
 
 /**
  * Created by 123rf on 21/05/2018.

@@ -4,8 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.jeffrey.country.countrypicker.PleaseDisplay;
+
 public class MainActivity extends AppCompatActivity {
-    private PleaseDisplay pleaseDisplay;
+    public PleaseDisplay pleaseDisplay;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
