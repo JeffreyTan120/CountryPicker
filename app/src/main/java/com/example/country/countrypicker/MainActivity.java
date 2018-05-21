@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.jeffrey.country.countrypicker.PleaseDisplay;
+import com.example.country.jflibrary.PleaseDisplay;
 
 public class MainActivity extends AppCompatActivity {
     public PleaseDisplay pleaseDisplay;

@@ -1,4 +1,4 @@
-package com.jeffrey.country.countrypicker;
+package com.example.country.jflibrary;
 
 /**
  * Created by 123rf on 21/05/2018.
