@@ -11,5 +11,5 @@ allprojects {
   
 Step 2. Add the dependency
 dependencies {
-		implementation 'com.github.JeffreyTan120:firstLibrary:v5'
+		 implementation 'com.github.JeffreyTan120:CountryPicker:v5'
 	}
