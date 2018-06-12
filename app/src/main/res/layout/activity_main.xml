@@ -6,13 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.country.countrypicker.MainActivity">
 
-    <RelativeLayout
+    <com.example.country.jflibrary.CountryLayout
+        android:id="@+id/languages"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center">
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="368dp"
-            android:layout_height="wrap_content"/>
-    </RelativeLayout>
+        android:popupBackground="@drawable/selector_drop_down"/>
 </LinearLayout>
